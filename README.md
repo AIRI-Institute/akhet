@@ -2,7 +2,7 @@
 
 Contact: humonen@airi.net
 
-Current information and updates: https://imak.ai/projects/mummy-ancient-egyptian
+Current information and updates: https://imak.ai/projects/ancient-egypt
 
 ## Models
 
