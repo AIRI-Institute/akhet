@@ -12,11 +12,14 @@ Current information and updates: https://imak.ai/projects/ancient-egypt
 ## Citation
 
 ```bibtex
-@inproceedings{humonen2026human,
-  title={Human-in-the-Loop Egyptology: A System for Ancient Egyptian Text Study},
-  author={Humonen, Innokentiy and Golyadkin, Maksim and Rubanova, Valeria and Alexandrova, Ekaterina and Loktionov, Alexandre A and Makarov, Ilya},
-  booktitle={Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems},
-  pages={1--5},
-  year={2026}
-}
+@INPROCEEDINGS{11236178,
+  author={Humonen, Innokentiy and Golyadkin, Maksim and Kalin, Danil and Makarov, Ilya},
+  booktitle={2025 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)}, 
+  title={Automatic Image Translation of Long Ancient Egyptian Texts for Augmented Reality Applications}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={875-876},
+  keywords={Translation;Optical character recognition;Pipelines;Solids;Augmented reality;OCR;image translation;augmented reality},
+  doi={10.1109/ISMAR-Adjunct68609.2025.00234}}
 ```
