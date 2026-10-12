@@ -8,6 +8,10 @@ Current information and updates: https://imak.ai/projects/ancient-egypt
 
 - [`nllb-translation/`](nllb-translation/) — Middle Egyptian (hieroglyphs/transliteration) to
   English/German translation, weights on [Hugging Face](https://huggingface.co/kesha-humonen/egyptian-nllb).
+- [`pipeline/`](pipeline/): the full reading pipeline from a page photo. Text lines, hieroglyph detection,
+  reading direction and modern text, Gardiner sign classification, reading order as Manuel de Codage,
+  then transliteration and translation with the model above, correctable by hand at every step.
+  Runs on ONNX Runtime (CC BY-NC-SA 4.0, see the folder LICENSE).
 
 ## Citation
 

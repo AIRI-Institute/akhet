@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "akhet"
+version = "0.1.0"
+description = "Read Ancient Egyptian hieroglyphs from images: sign detection, Gardiner codes, Manuel de Codage, transliteration and translation, with a human in the loop."
+readme = "README.md"
+license = {text = "CC-BY-NC-SA-4.0"}
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "pillow>=9.0", "opencv-python-headless>=4.8"]
+keywords = ["egyptology", "hieroglyphs", "ocr", "manuel de codage", "gardiner", "transliteration", "translation"]
+
+[project.optional-dependencies]
+cpu = ["onnxruntime>=1.17"]
+gpu = ["onnxruntime-gpu[cuda,cudnn]>=1.19"]
+translate = ["torch>=2.1", "transformers>=4.40", "sentencepiece>=0.1.99"]
+hub = ["huggingface_hub>=0.20"]
+
+[tool.setuptools]
+packages = ["akhet"]
